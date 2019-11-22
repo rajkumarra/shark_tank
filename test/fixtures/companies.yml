@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  season: 1
+  series: 1
+  name: MyString
+  deal: MyString
+  industry: MyString
+  entrepreneur_gender: MyString
+  amount: 1
+  equity: 1
+  valuation: 1
+
+two:
+  season: 1
+  series: 1
+  name: MyString
+  deal: MyString
+  industry: MyString
+  entrepreneur_gender: MyString
+  amount: 1
+  equity: 1
+  valuation: 1
