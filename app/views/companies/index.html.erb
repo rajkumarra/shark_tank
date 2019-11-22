@@ -1,0 +1,13 @@
+<table>
+  <tr>
+   <td>Season</td>
+   <td>Company</td>
+  </tr>
+  <% @companies.each do |company| %>
+    <tr>
+     <td><%= company.season %></td>
+     <td><%= company.name %></td>
+    </tr>
+  <% end %>
+<table>
+<%= will_paginate @companies %>
